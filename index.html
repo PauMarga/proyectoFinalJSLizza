@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Tienda en Línea</title>
+    <link rel="stylesheet" href="./public/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <h1>Tienda Argentina <img class="sol" src="./public/imagenes/radiant.png" alt=""></h1>
+    <div id="productos">
+        <div id="listaDeProductos" class="lista-productos"></div>
+    </div>
+    <div id="carrito">
+        <h2>Carrito de Compras</h2>
+        <ul id="listaDelCarrito"></ul>
+        <h3>Total: €<span id="total">0.00</span></h3>
+        <button id="botonVaciarCarrito">Vaciar Carrito</button>
+        <button id="finalizarCompra">Finalizar compra</button>
+    </div>
+    
+    <script src="./main.js"></script>
+    
+    
+</body>
+</html>
